@@ -977,14 +977,42 @@
   <settings pass="auditUser"></settings>
   <settings pass="oobeSystem">
     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+      <AutoLogon>
+        <Enabled>true</Enabled>
+        <LogonCount>9999999</LogonCount>
+        <Username>Administrator</Username>
+        <Password>
+		<PlainText>true</PlainText>
+		<Value></Value>
+        </Password>
+      </AutoLogon>
       <OOBE>
         <HideEULAPage>true</HideEULAPage>
+        <HideLocalAccountScreen>true</HideLocalAccountScreen>
         <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
         <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
         <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
         <NetworkLocation>Work</NetworkLocation>
         <ProtectYourPC>3</ProtectYourPC>
+        <SkipMachineOOBE>true</SkipMachineOOBE>
+        <SkipUserOOBE>true</SkipUserOOBE>
       </OOBE>
+      <UserAccounts>
+	<AdministratorPassword>
+		<PlainText>true</PlainText>
+		<Value></Value>
+	</AdministratorPassword>
+	<LocalAccounts>
+		<LocalAccount wcm:action="add">
+			<Group>Administrators</Group>
+			<Name>Administrator</Name>
+			<Password>
+				<PlainText>true</PlainText>
+				<Value></Value>
+			</Password>
+		</LocalAccount>
+	</LocalAccounts>
+      </UserAccounts>
       <FirstLogonCommands>
         <SynchronousCommand>
         <!-- Enables Network Adapters After OOBE Completes -->
@@ -994,14 +1022,42 @@
     </FirstLogonCommands>
     </component>
     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+      <AutoLogon>
+        <Enabled>true</Enabled>
+        <LogonCount>9999999</LogonCount>
+        <Username>Administrator</Username>
+        <Password>
+		<PlainText>true</PlainText>
+		<Value></Value>
+        </Password>
+      </AutoLogon>
       <OOBE>
         <HideEULAPage>true</HideEULAPage>
+        <HideLocalAccountScreen>true</HideLocalAccountScreen>
         <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
         <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
         <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
         <NetworkLocation>Work</NetworkLocation>
         <ProtectYourPC>3</ProtectYourPC>
+        <SkipMachineOOBE>true</SkipMachineOOBE>
+        <SkipUserOOBE>true</SkipUserOOBE>
       </OOBE>
+      <UserAccounts>
+	<AdministratorPassword>
+		<PlainText>true</PlainText>
+		<Value></Value>
+	</AdministratorPassword>
+	<LocalAccounts>
+		<LocalAccount wcm:action="add">
+			<Group>Administrators</Group>
+			<Name>Administrator</Name>
+			<Password>
+				<PlainText>true</PlainText>
+				<Value></Value>
+			</Password>
+		</LocalAccount>
+	</LocalAccounts>
+      </UserAccounts>
       <FirstLogonCommands>
         <SynchronousCommand>
         <!-- Enables Network Adapters After OOBE Completes -->
@@ -1011,14 +1067,42 @@
     </FirstLogonCommands>
     </component>
     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+      <AutoLogon>
+        <Enabled>true</Enabled>
+        <LogonCount>9999999</LogonCount>
+        <Username>Administrator</Username>
+        <Password>
+		<PlainText>true</PlainText>
+		<Value></Value>
+        </Password>
+      </AutoLogon>
       <OOBE>
         <HideEULAPage>true</HideEULAPage>
+        <HideLocalAccountScreen>true</HideLocalAccountScreen>
         <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
         <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
         <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
         <NetworkLocation>Work</NetworkLocation>
         <ProtectYourPC>3</ProtectYourPC>
+        <SkipMachineOOBE>true</SkipMachineOOBE>
+        <SkipUserOOBE>true</SkipUserOOBE>
       </OOBE>
+      <UserAccounts>
+	<AdministratorPassword>
+		<PlainText>true</PlainText>
+		<Value></Value>
+	</AdministratorPassword>
+	<LocalAccounts>
+		<LocalAccount wcm:action="add">
+			<Group>Administrators</Group>
+			<Name>Administrator</Name>
+			<Password>
+				<PlainText>true</PlainText>
+				<Value></Value>
+			</Password>
+		</LocalAccount>
+	</LocalAccounts>
+      </UserAccounts>
       <FirstLogonCommands>
         <SynchronousCommand>
         <!-- Enables Network Adapters After OOBE Completes -->
